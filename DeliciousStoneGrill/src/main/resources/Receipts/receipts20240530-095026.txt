@@ -1,0 +1,24 @@
+---- Customer's Receipt ----
+Base Price (4 inches): $5.50
+Bread (Wheat Bread): $0.00
+Meat (Roast Beef): $1.00
+Extra Meat: $0.50
+Toppings: m (No additional cost)
+Sauces:v (x1): No additional cost
+Side (s): No additional cost
+Drink (Large): $3.00
+Total: $10.00
+---------------------------
+---- Customer's Receipt ----
+Base Price (4 inches): $5.50
+Bread (Rye Bread): $0.00
+Meat (Chicken): $1.00
+Cheese (American): $0.75
+Toppings: m (No additional cost)
+Sauces:r (x1): No additional cost
+Side (s): No additional cost
+Drink (Large): $3.00
+Chips: $1.50
+Total: $11.75
+---------------------------
+Total Cost: $21.75

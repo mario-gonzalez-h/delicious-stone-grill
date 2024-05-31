@@ -1,0 +1,16 @@
+---- Customer's Receipt ----
+Base Price (8 inches): $7.00
+Bread (White Bread): $0.00
+Meat (Ham): $2.00
+Extra Meat: $1.00
+Cheese (American): $1.50
+Extra Cheese: $0.60
+Toasted: No additional cost
+Toppings: l (No additional cost)
+Sauces:
+k (x1): No additional cost
+Side (s): No additional cost
+Chips: $1.50
+Total: $13.60
+---------------------------
+Total Cost: $13.60

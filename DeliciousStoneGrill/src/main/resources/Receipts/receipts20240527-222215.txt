@@ -1,0 +1,11 @@
+---- Customer's Receipt ----
+Bread: White Bread
+Size: 8 inches
+Meat: Chicken
+Toppings: g
+Sauces:
+v: 1
+Side: s
+Total: $9.00
+---------------------------
+Total Cost: $9.00

@@ -1,0 +1,16 @@
+---- Customer's Receipt ----
+Base Price (12 inches): $8.50
+Bread (Wheat Bread): $0.00
+Meat (Steak): $3.00
+Extra Meat: $1.50
+Cheese (American): $2.25
+Extra Cheese: $0.90
+Toasted: No additional cost
+Toppings: c (No additional cost)
+Sauces:r (x1): No additional cost
+k (x1): No additional cost
+Side (?): No additional cost
+Chips: $1.50
+Total: $17.65
+---------------------------
+Total Cost: $17.65

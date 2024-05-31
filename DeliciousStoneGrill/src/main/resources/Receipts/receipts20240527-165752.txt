@@ -1,0 +1,28 @@
+---- Customer's Receipt ----
+Bread: White Bread
+Size: 4 inches
+Meat: Chicken
+Extra Meat
+Cheese: Provolone
+Extra Cheese
+Toasted
+Toppings: C
+Sauces:
+1000: 1
+Side: s
+Chips
+Total: $9.55
+---------------------------
+---- Customer's Receipt ----
+Bread: Wrap Tortilla
+Size: 12 inches
+Meat: Chicken
+Extra Meat
+Toppings: j
+Sauces:
+r: 1
+Side: s
+Chips
+Total: $14.50
+---------------------------
+Total Cost: $24.05

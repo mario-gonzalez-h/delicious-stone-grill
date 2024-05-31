@@ -1,0 +1,16 @@
+* Customer's Receipt *
+Bread: White Bread
+Size: 4 inches
+Meat: Steak
+Extra Meat
+Cheese: American
+Extra Cheese
+Toasted
+Toppings: l
+Sauces:
+k: 1
+Side: s
+Chips
+Total: $9.65
+*art here*
+Total Cost: $9.65
