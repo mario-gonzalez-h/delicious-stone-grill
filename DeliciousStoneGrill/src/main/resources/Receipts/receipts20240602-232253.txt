@@ -1,0 +1,16 @@
+---- Customer's Receipt ----
+Base Price (8 inches): $7.00
+Bread (White Bread): $0.00
+Meat (Chicken): $2.00
+Extra Meat: $1.00
+Cheese (Swiss): $1.50
+Extra Cheese: $0.60
+Toppings: c, o (No additional cost)
+Sauces:r (x1): No additional cost
+k (x1): No additional cost
+Side (s): No additional cost
+Drink (Large): $3.00
+Chips: $1.50
+Total: $16.60
+---------------------------
+Total Cost: $16.60

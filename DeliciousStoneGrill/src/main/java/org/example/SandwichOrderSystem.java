@@ -10,12 +10,60 @@ public class SandwichOrderSystem {
 
     public static void startOrder() {
         boolean ordering = true;
-        System.out.println("Welcome to Delicious Capstone Grill!");
+
+        String reset = "\u001B[0m";
+        String red = "\u001B[31m";
+        String green = "\u001B[32m";
+        String yellow = "\u001B[33m";
+        String blue = "\u001B[34m";
+        String magenta = "\u001B[35m";
+        String cyan = "\u001B[36m";
+        String white = "\u001B[37m";
+
+
+        System.out.println(green + " ________  _______   ___       ___  ________  ___  ________  ___  ___  ________           ________  ________  ________  ________  _________  ________  ________   _______           ________  ________  ___  ___       ___          " + reset);
+        System.out.println(green + "|\\   ___ \\|\\  ___ \\ |\\  \\     |\\  \\|\\   ____\\|\\  \\|\\   __  \\|\\  \\|\\  \\|\\   ____\\         |\\   ____\\|\\   __  \\|\\   __  \\|\\   ____\\|\\___   ___\\\\   __  \\|\\   ___  \\|\\  ___ \\         |\\   ____\\|\\   __  \\|\\  \\|\\  \\     |\\  \\         " + reset);
+        System.out.println(green + "\\ \\  \\_|\\ \\ \\   __/|\\ \\  \\    \\ \\  \\ \\  \\___|\\ \\  \\ \\  \\|\\  \\ \\  \\\\\\  \\ \\  \\___|_        \\ \\  \\___|\\ \\  \\|\\  \\ \\  \\|\\  \\ \\  \\___|\\|___ \\  \\_\\ \\  \\|\\  \\ \\  \\\\ \\  \\ \\   __/|        \\ \\  \\___|\\ \\  \\|\\  \\ \\  \\ \\  \\    \\ \\  \\        " + reset);
+        System.out.println(green + " \\ \\  \\ \\\\ \\ \\  \\_|/_\\ \\  \\    \\ \\  \\ \\  \\    \\ \\  \\ \\  \\\\\\  \\ \\  \\\\\\  \\ \\_____  \\        \\ \\  \\    \\ \\   __  \\ \\   ____\\ \\_____  \\   \\ \\  \\ \\ \\  \\\\\\  \\ \\  \\\\ \\  \\ \\  \\_|/__       \\ \\  \\  __\\ \\   _  _\\ \\  \\ \\  \\    \\ \\  \\       " + reset);
+        System.out.println(green + "  \\ \\  \\_\\\\ \\ \\  \\_|\\ \\ \\  \\____\\ \\  \\ \\  \\____\\ \\  \\ \\  \\\\\\  \\ \\  \\\\\\  \\|____|\\  \\        \\ \\  \\____\\ \\  \\ \\  \\ \\  \\___|\\|____|\\  \\   \\ \\  \\ \\ \\  \\\\\\  \\ \\  \\\\ \\  \\ \\  \\_|\\ \\       \\ \\  \\|\\  \\ \\  \\\\  \\\\ \\  \\ \\  \\____\\ \\  \\____  " + reset);
+        System.out.println(green + "   \\ \\_______\\ \\_______\\ \\_______\\ \\__\\ \\_______\\ \\__\\ \\_______\\ \\_______\\____\\_\\  \\        \\ \\_______\\ \\__\\ \\__\\ \\__\\     ____\\_\\  \\   \\ \\__\\ \\ \\_______\\ \\__\\\\ \\__\\ \\_______\\       \\ \\_______\\ \\__\\\\ _\\\\ \\__\\ \\_______\\ \\_______\\ " + reset);
+        System.out.println(green + "    \\|_______|\\|_______|\\|_______|\\|__|\\|_______|\\|__|\\|_______|\\|_______|\\_________\\        \\|_______|\\|__|\\|__|\\|__|    |\\_________\\   \\|__|  \\|_______|\\|__| \\|__|\\|_______|        \\|_______|\\|__|\\|__|\\|__|\\|_______|\\|_______| " + reset);
+        System.out.println(green + "                                                                         \\|_________|                                     \\|_________|                                                                                              " + reset);
+        System.out.println(green + "                                                                                                                                                                                                                                    " + reset);
+        System.out.println(yellow + "                                                                           _" + reset);
+        System.out.println(yellow + "                                                          //" + reset);
+        System.out.println(yellow + "                                                         //" + reset);
+        System.out.println(yellow + "                                         _______________//__" + reset);
+        System.out.println(yellow + "                                       .(______________//___)." + reset);
+        System.out.println(yellow + "                                       |              /      |" + reset);
+        System.out.println(yellow + "                                       |. . . . . . . / . . .|" + reset);
+        System.out.println(yellow + "                                       \\ . . . . . ./. . . . /" + reset);
+        System.out.println(yellow + "                                        |           / ___   |" + reset);
+        System.out.println(yellow + "                    _.---._             |::......./../...\\.:|" + reset);
+        System.out.println(yellow + "                _.-~       ~-._         |::::/::\\::/:\\::::::|" + reset);
+        System.out.println(yellow + "            _.-~               ~-._     |::::\\::/::::::X:/::|" + reset);
+        System.out.println(yellow + "        _.-~                       ~---.;:::::::/::\\::/:::::|" + reset);
+        System.out.println(yellow + "    _.-~                                 ~\\::::::n::::::::::|" + reset);
+        System.out.println(yellow + " .-~                                    _.;::/::::a::::::::/" + reset);
+        System.out.println(yellow + " :-._                               _.-~ ./::::::::d:::::::|" + reset);
+        System.out.println(yellow + " `-._~-._                   _..__.-~ _.-~|::/::::::::::::::|" + reset);
+        System.out.println(yellow + "  /  ~-._~-._              / .__..--~----.YWWWWWWWWWWWWWWWP'" + reset);
+        System.out.println(yellow + " \\_____(_;-._\\.        _.-~_/       ~).. . \\" + reset);
+        System.out.println(yellow + "    /(_____  \\`--...--~_.-~______..-+_______)" + reset);
+        System.out.println(yellow + "  .(_________/`--...--~/    _/           /\\" + reset);
+        System.out.println(yellow + " /-._     \\_     (___./_..-~__.....__..-~./" + reset);
+        System.out.println(yellow + " `-._~-._   ~\\--------~  .-~_..__.-~ _.-~" + reset);
+        System.out.println(yellow + "     ~-._~-._ ~---------'  / .__..--~" + reset);
+        System.out.println(yellow + "         ~-._\\.        _.-~_/" + reset);
+        System.out.println(yellow + "             \\`--...--~_.-~" + reset);
+        System.out.println(yellow + "              `--...--~" + reset);
+
+        System.out.println(cyan + "Welcome to Delicious Capstone Grill!" + reset);
         while (ordering) {
-            System.out.println("[1] Add a new Sandwich to your order");
-            System.out.println("[2] View current order");
-            System.out.println("[3] Remove an item from your order");
-            System.out.println("[4] Check Out");
+            System.out.println(blue + "[1] Add a new Sandwich to your order" + reset);
+            System.out.println(blue + "[2] View current order" + reset);
+            System.out.println(blue + "[3] Remove an item from your order" + reset);
+            System.out.println(blue + "[4] Check Out" + reset);
             try {
                 int choice = Integer.parseInt(scanner.nextLine());
                 switch (choice) {
@@ -207,7 +255,7 @@ public class SandwichOrderSystem {
 
     private static void selectToasted(SandwichBuilder builder) {
         try {
-            System.out.println("WOULD YOU LIKE TO GET IT TOASTED?");
+            System.out.println("Would you like to get it toasted?");
             System.out.println("[1] Yes, I want it toasted\n[2] No, I do not want it toasted");
             boolean toasted = Integer.parseInt(scanner.nextLine()) == 1;
             builder.setToasted(toasted);
@@ -222,6 +270,7 @@ public class SandwichOrderSystem {
         try {
             System.out.println("Now let’s get you started with your Regular Toppings!");
             System.out.println("Please select from the following Toppings (At No Additional Cost):");
+            System.out.println("You can add more tha one selection separated by a comma. EX: L, Pep");
             System.out.println("[L]-Lettuce\n[Pep]-Peppers\n[O]-Onions\n[T]-Tomatoes\n[J]-Jalapenos\n[C]-Cucumbers\n[Pic]-Pickles\n[G]-Guacamole\n[M]-Mushrooms\n[00]-Cancel Order");
             String toppings = scanner.nextLine();
             if (toppings.equals("00")) {
@@ -240,6 +289,7 @@ public class SandwichOrderSystem {
         try {
             System.out.println("Now let’s get some Sauce in your life!");
             System.out.println("Please select from the following Sauces (At No Additional Cost):");
+            System.out.println("You can add more tha one selection separated by a comma. EX: May, Mus");
             System.out.println("[May]-Mayo\n[Mus]-Mustard\n[K]-Ketchup\n[R]-Ranch\n[1000]-Thousand Islands\n[V]-Vinaigrette\n[None]-No extra flavor for me");
             String[] sauces = scanner.nextLine().split(",\\s*");
             for (String sauce : sauces) {

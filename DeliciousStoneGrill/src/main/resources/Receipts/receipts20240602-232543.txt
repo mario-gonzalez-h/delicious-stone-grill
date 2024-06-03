@@ -1,0 +1,11 @@
+Base Price (4 inches): $5.50
+Bread (Rye Bread): $0.00
+Meat (Chicken): $1.00
+Cheese (Swiss): $0.75
+Toasted: No additional cost
+Toppings: g, m, c (No additional cost)
+Sauces:v (x1): No additional cost
+Side (?): No additional cost
+Total: $7.25
+*---------------------------*
+Total Cost: $7.25

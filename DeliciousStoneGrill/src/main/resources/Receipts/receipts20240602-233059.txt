@@ -1,0 +1,14 @@
+Base Price (4 inches): $5.50
+Bread (Wrap Tortilla): $0.00
+Meat (Chicken): $1.00
+Extra Meat: $0.50
+Cheese (Cheddar): $0.75
+Extra Cheese: $0.30
+Toppings: m No additional cost
+Sauces:r (x3): No additional cost
+k (x2): No additional cost
+Side (s): No additional cost
+Drink (Medium): $2.50
+Total: $10.55
+*---------------------------*
+Total Cost: $10.55

@@ -16,7 +16,6 @@ class Sandwich {
     private Drink drink;
     private boolean chips;
 
-    // Getters and setters
 
     public void setBread(Bread bread) {
         this.bread = bread;
@@ -60,7 +59,6 @@ class Sandwich {
         this.chips = chips;
     }
 
-    // Calculate the total cost of the sandwich
     public double calculateTotal() {
         double total = 0;
         total += (size == 4) ? 5.50 : (size == 8) ? 7.00 : 8.50;
@@ -74,11 +72,9 @@ class Sandwich {
         return total;
     }
 
-    // Generate the receipt details for the sandwich
     public String getReceiptDetails() {
         StringBuilder receipt = new StringBuilder();
         double basePrice = (size == 4) ? 5.50 : (size == 8) ? 7.00 : 8.50;
-        receipt.append("---- Customer's Receipt ----\n");
         receipt.append(String.format("Base Price (%d inches): $%.2f\n", size, basePrice));
         if (bread != null) receipt.append(String.format("Bread (%s): $%.2f\n", bread.getDescription(), bread.getPrice(size)));
         if (meat != null) {
@@ -93,7 +89,7 @@ class Sandwich {
         if (!toppings.isEmpty()) {
             receipt.append("Toppings: ");
             receipt.append(String.join(", ", toppings));
-            receipt.append(" (No additional cost)\n");
+            receipt.append(" No additional cost\n");
         }
         if (!sauces.isEmpty()) {
             receipt.append("Sauces:");
@@ -105,7 +101,7 @@ class Sandwich {
         if (drink != null) receipt.append(String.format("Drink (%s): $%.2f\n", drink.getDescription(), drink.getPrice()));
         if (chips) receipt.append("Chips: $1.50\n");
         receipt.append(String.format("Total: $%.2f\n", calculateTotal()));
-        receipt.append("---------------------------\n");
+        receipt.append("*---------------------------*\n");
         return receipt.toString();
     }
 }
